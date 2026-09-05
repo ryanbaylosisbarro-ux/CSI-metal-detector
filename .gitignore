@@ -1,9 +1,9 @@
 # Ignore heavy ESP-IDF background compilation folders
-build/
-sdkconfig
-.managed_components/
-dependencies.lock
-.vscode/
+**/build/
+**/sdkconfig
+**/.managed_components/
+**/dependencies.lock
+**/.vscode/
 
 # Ignore Python environment and cache folders
 __pycache__/
@@ -13,4 +13,3 @@ venv/
 
 # Optional: Ignore massive raw data spreadsheets if they get too huge
 # *.csv
-s
